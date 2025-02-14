@@ -1,0 +1,31 @@
+.box {
+  width: 40%;
+  border: 5px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 2%;
+}
+
+.item-img {
+  width: 70%;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5%;
+}
+
+.win {
+  border: 5px solid blue;
+}
+
+.lose {
+  border: 5px solid red;
+}
+
+.tie {
+  border: 5px solid black;
+}
