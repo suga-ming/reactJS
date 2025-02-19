@@ -1,4 +1,4 @@
-import "../App.css";
+import "../game.css";
 import PropTypes from "prop-types";
 
 const Box = (props) => {
