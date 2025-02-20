@@ -1,0 +1,65 @@
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: url(https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2F20160227_268%2Fifbread_1456524200025YT3W5_JPEG%2F34.jpg&type=sc960_832);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.weather_box {
+  width: 40%;
+  background-color: rgba(0, 0, 0, 0.4);
+  border: 3px solid white;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5% 0;
+}
+
+.area {
+  color: black;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.temperature {
+  color: yellow;
+  font-size: 1.5rem;
+}
+
+.weather {
+  color: blue;
+  font-size: 1.3rem;
+}
+
+.button_box {
+  width: 40%;
+  height: 40px;
+  padding: 1% 0;
+  margin-top: 30px;
+  border-radius: 30px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons {
+  width: 15%;
+  background-color: yellow;
+  border-radius: 3px;
+  margin: 3px 3px;
+  padding: 1% 0;
+  cursor: pointer;
+}
+
+button:focus {
+  background-color: black;
+  color: white;
+  border: 3px solid white;
+  border-radius: 8px;
+}

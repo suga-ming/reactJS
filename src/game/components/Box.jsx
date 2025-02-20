@@ -2,7 +2,6 @@ import "../game.css";
 import PropTypes from "prop-types";
 
 const Box = (props) => {
-  console.log("props.result", props.result);
   let result;
   if (
     props.title == "computer" &&
